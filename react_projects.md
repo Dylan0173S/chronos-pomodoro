@@ -117,4 +117,29 @@ complexidade do Redux.
 
 - No terminal execute e clique enter em tudo: ssh-keygen.exe
 - Depois copie o local da chave e execute: cat (cole o local da chave)
-- Em seguida configurar no git hub
+- Em seguida configurar no git hub (https://github.com/settings/ssh/new)
+
+### Comandos GIT
+
+- git --version (Verifica a instalação)
+- git init (Inicializa o repositório local)
+- git branch -m main (Define o nome da branch principal como "main")
+- git config user.name "Nome de Usuário"
+- git config user.email "email@email.com"
+- git config core.eol lf
+- git config core.autocrlf input
+- git add . (Adiciona todos os arquivos ao index)
+- git commit -m "mensagem de commit" Salva o (estado atual (checkpoint))
+
+- git reset --hard (Limpa tudo. Ele volta o estado da pasta exatamente para como
+  estava no último commit, descartando qualquer código novo)
+- git reset --soft (Move o ponteiro de volta, mas mantém o código que você
+  escreveu intacto na sua pasta (como se você tivesse acabado de dar um git add
+  mas ainda não tivesse commitado))
+
+- git remote add origin link://repositório.no.github.com (Vincula seu PC ao
+  servidor (GitHub))
+- git push origin main -u (Sobe os arquivos e define o "main" como padrão)
+
+- git config --list --local
+- git status (Mostra o estado atual dos arquivos)
