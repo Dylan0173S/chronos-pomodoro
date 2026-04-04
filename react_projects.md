@@ -129,7 +129,7 @@ complexidade do Redux.
 - git config core.eol lf
 - git config core.autocrlf input
 - git add . (Adiciona todos os arquivos ao index)
-- git commit -m "mensagem de commit" Salva o (estado atual (checkpoint))
+- git commit -m "mensagem de commit" (Salva o estado atual (checkpoint))
 
 - git reset --hard (Limpa tudo. Ele volta o estado da pasta exatamente para como
   estava no último commit, descartando qualquer código novo)
