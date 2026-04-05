@@ -62,7 +62,7 @@ node -v && npm -v && git --version
 
 Cria o projeto já configurado com TypeScript e SWC:
 
--npm create vite@latest meu-projeto -- --template react-swc-ts
+- npm create vite@latest meu-projeto -- --template react-swc-ts
 
 OU Método Manual (Menu Interativo):
 
@@ -140,6 +140,26 @@ complexidade do Redux.
 - git remote add origin link://repositório.no.github.com (Vincula seu PC ao
   servidor (GitHub))
 - git push origin main -u (Sobe os arquivos e define o "main" como padrão)
+- git push (Após definir o origin main)
 
 - git config --list --local
 - git status (Mostra o estado atual dos arquivos)
+
+---
+
+## Extensões para arquivos no React
+
+- .js
+- .jsx
+- .ts
+- .tsx
+
+---
+
+## Anotações:
+
+- Componente do React é uma função em PascalCase (ex.: App, ExemploDeComponente)
+- Da pra fazer 3 tipos de export: Default, nomeado e de função.
+- JSX só permite retornar um elemento por vez (sempre com um elemento pai)
+- Caso não queira um elemento pai envolta dos seus elementos html, use um react
+  fragment (<></> ou <Fragment></Fragment>)
